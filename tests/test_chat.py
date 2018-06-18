@@ -18,7 +18,7 @@ class TestChat(TestCase):
 
     def __init__(self, methodName='runTest'):
         super(TestChat, self).__init__()
-        self.runner = CliRunner()
+        self.runner = CliRunner() 
 
     def setUp(self):
         self.tempdir = tempfile.mkdtemp(prefix='yoda_')
